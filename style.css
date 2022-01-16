@@ -8,7 +8,8 @@ body {
 	overflow: hidden;
 }
 
-nav {
+	nav {
+		position: relative;
 		height: 7vh;
 		width: 40%;
 		margin: auto;
@@ -60,6 +61,13 @@ nav {
 		background-color: #fefcf8;
 		color: #000;
 		z-index: -2;
+	}
+
+	p.screen-size {
+		position: absolute;
+		left: 15%;
+		font-size: 12px;
+		color: #fff;
 	}
 
 	/* lineart */
@@ -207,34 +215,6 @@ nav {
 
 
 /* Responsive Breakpoint */
-
-
-/* ukuran tablet */
-
-@media screen and (max-width: 768px) {
-
-	nav {
-		width: 100%;
-	}
-
-	/* column 1 */
-
-	div.column1 {
-		width: 100%;
-	}
-
-	/* column 2 */
-
-	div.column2 {
-		width: 100%;
-	}
-
-	/* column 3 */
-
-	div.column3 {
-		width: 100%;
-	}
-}
 
 /* ukuran mobile */
 
