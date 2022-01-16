@@ -67,7 +67,8 @@ body {
 		position: absolute;
 		left: 15%;
 		font-size: 12px;
-		color: #fff;
+		color: red;
+		background-color: #fff;
 	}
 
 	/* lineart */
