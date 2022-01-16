@@ -3,6 +3,11 @@
 	padding: 0;
 }
 
+:root {
+	--device-width: ;
+	--device-height: ;
+}
+
 body {
 	font-family: 'Montserrat-Light', sans-serif;
 	overflow: hidden;
@@ -219,7 +224,7 @@ body {
 
 /* ukuran mobile */
 
-@media screen and (max-width: 576px) {
+@media screen and ( max-width: var(--device-width) ) {
 
 	nav {
 		width: 100%;
@@ -243,7 +248,6 @@ body {
 		width: 100%;
 	}
 }
-
 
 
 
